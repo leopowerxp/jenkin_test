@@ -4,3 +4,4 @@ def lambdaHandler(event, context):
         'headers': {'Content-Type': 'application/json'},
         'body': "event data type: {}, \n event content: {}".format(type(event), str(event))
     }
+
