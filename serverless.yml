@@ -24,7 +24,7 @@ provider:
 
 functions:
   JenkinTest:
-    handler: Test.lambdaHandler
+    handler: JenkinTest.lambdaHandler
     events:
       - http:
           path: serverlesstest
