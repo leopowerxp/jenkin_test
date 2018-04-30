@@ -1,4 +1,4 @@
-service: Test
+service: JenkinTest
 
 plugins:
   - serverless-python-requirements
@@ -23,7 +23,7 @@ provider:
   memorySize: 256
 
 functions:
-  Test:
+  JenkinTest:
     handler: Test.lambdaHandler
     events:
       - http:
