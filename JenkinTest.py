@@ -3,6 +3,6 @@ def lambdaHandler(event, context):
         "statusCode": 200,
         'headers': {'Content-Type': 'application/json'},
         #'body': "event data type: {}, event content: {}".format(type(event), str(event))
-        'body': 'test2'
+        'body': 'test3'
     }
 
