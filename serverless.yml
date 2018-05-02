@@ -26,8 +26,6 @@ functions:
   JenkinTest:
     handler: JenkinTest.lambdaHandler
     events:
-      - http:
-          path: serverlesstest
-          method: post
+      - sns: JenkinTest-${self:provider.stage}-JenkinTest
 
 
